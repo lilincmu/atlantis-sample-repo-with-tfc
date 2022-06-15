@@ -4,7 +4,7 @@ terraform {
     organization = "hashicorp-v2"
 
     workspaces {
-      name = "lilin-atlantis-with-tfc"
+      prefix = "lilin-atlantis-with-tfc"
     }
   }
 }
