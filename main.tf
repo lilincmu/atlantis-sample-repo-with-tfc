@@ -1,5 +1,5 @@
 terraform {
-  cloud {
+  backend "remote"  {
     hostname = "app.terraform.io"
     organization = "hashicorp-v2"
 
