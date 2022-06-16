@@ -1,7 +1,7 @@
 terraform {
   cloud {
-    hostname = "app.terraform.io"
-    organization = "hashicorp-v2"
+    hostname = "app.staging.terraform.io"
+    organization = "lilin_staging"
 
     workspaces {
       name = "lilin-atlantis-with-tfc"
@@ -10,7 +10,4 @@ terraform {
 }
 
 resource "null_resource" "example" {
-}
-
-resource "null_resource" "example2" {
 }
