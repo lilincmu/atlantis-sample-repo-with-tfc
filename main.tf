@@ -1,4 +1,6 @@
 terraform {
+  required_version = ">=1.2"
+
   cloud {
     hostname = "app.staging.terraform.io"
     organization = "lilin_staging"
