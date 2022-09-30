@@ -4,7 +4,7 @@ terraform {
     organization = "lilin_staging"
 
     workspaces {
-      name = "lilin-atlantis-with-tfc"
+      tags = ["lilin-atlantis-with-tfc"]
     }
   }
 }
