@@ -9,6 +9,10 @@ terraform {
   }
 }
 
+output "current_workspace_name" {
+  value = terraform.workspace
+}
+
 resource "null_resource" "example" {
 }
 
