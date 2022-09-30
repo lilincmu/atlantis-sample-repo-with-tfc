@@ -6,7 +6,7 @@ terraform {
     organization = "lilin_staging"
 
     workspaces {
-      name = "lilin-atlantis-with-tfc"
+      name = "lilin-atlantis-with-tfc-2"
     }
   }
 }
