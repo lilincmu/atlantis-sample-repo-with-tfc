@@ -4,20 +4,10 @@ terraform {
     organization = "lilin_staging"
 
     workspaces {
-      tags = ["atlantis"]
+      name = "lilin-atlantis-with-tfc"
     }
   }
 }
 
-output "current_workspace_name" {
-  value = terraform.workspace
-}
-
 resource "null_resource" "example" {
-}
-
-resource "null_resource" "example2" {
-}
-
-resource "null_resource" "example3" {
 }
