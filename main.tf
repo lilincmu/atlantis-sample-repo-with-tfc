@@ -1,23 +1,26 @@
 terraform {
+  required_version = ">=1.2"
+
   cloud {
     hostname = "app.staging.terraform.io"
     organization = "lilin_staging"
 
     workspaces {
-      tags = ["atlantis"]
+      name = "lilin-atlantis-with-tfc"
+    }
+  }
+
+  required_providers {
+    null = {
+      source = "hashicorp/null"
+      version = "3.2.1"
     }
   }
 }
 
-output "current_workspace_name" {
-  value = terraform.workspace
+provider "null" {
+  # Configuration options
 }
 
 resource "null_resource" "example" {
-}
-
-resource "null_resource" "example2" {
-}
-
-resource "null_resource" "example3" {
 }
