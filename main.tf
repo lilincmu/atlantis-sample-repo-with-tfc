@@ -4,7 +4,7 @@ terraform {
     organization = "lilin_staging"
 
     workspaces {
-      name = "atlantis-sample-repo-with-tfc"
+      name = "lilin-atlantis-with-tfc"
     }
   }
 
