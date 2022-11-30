@@ -1,5 +1,5 @@
 terraform {
-  required_version = "1.2.3"
+  required_version = ">=1.2"
 
   cloud {
     hostname = "app.staging.terraform.io"
@@ -13,7 +13,7 @@ terraform {
   required_providers {
     null = {
       source = "hashicorp/null"
-      version = "3.2.1"
+      version = "3.2.0"
     }
   }
 }
