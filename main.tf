@@ -13,7 +13,7 @@ terraform {
   required_providers {
     null = {
       source = "hashicorp/null"
-      version = "3.2.1"
+      version = "3.2.0"
     }
   }
 }
@@ -23,4 +23,8 @@ provider "null" {
 }
 
 resource "null_resource" "example" {
+}
+
+
+resource "null_resource" "example2" {
 }
