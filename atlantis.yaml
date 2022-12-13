@@ -3,5 +3,4 @@ automerge: true
 delete_source_branch_on_merge: true
 projects:
 - dir: .
-  workspace: lilin-atlantis-with-tfc
-  branch: remote-backend
+  branch: /remote-backend/

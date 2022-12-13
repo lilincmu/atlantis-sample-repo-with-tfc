@@ -6,7 +6,7 @@ terraform {
     organization = "lilin_staging"
 
     workspaces {
-      name = "lilin-atlantis-with-tfc"
+      name = "atlantis-sample-repo-with-tfc-remote-backend-0-12"
     }
   }
 }
@@ -16,10 +16,4 @@ provider "null" {
 }
 
 resource "null_resource" "example" {
-}
-
-resource "null_resource" "example2" {
-}
-
-resource "null_resource" "example3" {
 }
