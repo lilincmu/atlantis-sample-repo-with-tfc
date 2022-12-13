@@ -3,5 +3,4 @@ automerge: true
 delete_source_branch_on_merge: true
 projects:
 - dir: .
-  workspace: atlantis-sample-repo-with-tfc-remote-backend-0-12
   branch: /remote-backend/
