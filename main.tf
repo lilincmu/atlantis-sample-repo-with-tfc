@@ -1,7 +1,7 @@
 terraform {
-  required_version = ">=1.2"
+  required_version = "0.12.0"
 
-  cloud {
+  backend "remote" {
     hostname = "app.staging.terraform.io"
     organization = "lilin_staging"
 
