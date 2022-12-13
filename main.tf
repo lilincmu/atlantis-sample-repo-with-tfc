@@ -9,7 +9,7 @@ terraform {
       name = "lilin-atlantis-with-tfc"
     }
   }
-
+  
   required_providers {
     null = {
       source = "hashicorp/null"
@@ -25,6 +25,8 @@ provider "null" {
 resource "null_resource" "example" {
 }
 
-
 resource "null_resource" "example2" {
+}
+
+resource "null_resource" "example3" {
 }
